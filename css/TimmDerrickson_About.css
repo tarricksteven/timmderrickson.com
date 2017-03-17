@@ -1,0 +1,87 @@
+body {
+  background: url('../img/Timmonsnow.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(218,236,228,0.7);
+  height: 185px;
+  box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+#td_logo_img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  margin: 0px auto;
+}
+
+h2 {
+  width: 80%;
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #a5a390;
+  text-align: center;
+  letter-spacing: 36px;
+  border-bottom: solid 2px #a5a390;
+  margin: 0px auto;
+  /*border: 2px blue solid;*/
+}
+
+nav {
+  text-align: center;
+  margin-left: 40px;
+  display: flex;
+}
+
+nav a {
+  font-size: 1.75rem;
+  color: #3d524a;
+  margin: 0px auto;
+  text-decoration: none;
+  /*background-color: yellow;*/
+}
+
+.header_icon {
+  height: 180px;
+  margin: auto 10px;
+  float: right;
+}
+.icon_header {
+  display: block;
+  width: 40px;
+  clear:both;
+  padding: 5px;
+  margin: 5px 0px  ;
+  }
+
+#fb_header {
+  margin-top: 35px;
+}
+
+.text-box {
+  margin: 60px auto auto 160px;
+  width: 45%;
+  height: 50%;
+  border: 4px solid white;
+  }
+
+.text-box p {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #e2f2e2;
+  margin: 10px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  word-spacing: 1rem;
+}
+
+footer {
+  width: 100%;
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.25rem;
+  color: #e2f2e2;
+}

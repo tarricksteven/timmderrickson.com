@@ -1,0 +1,105 @@
+/******
+Header
+******/
+
+header {
+  margin: 100px auto 50px;
+  text-align:center;
+  size:100%;
+  text-shadow: 0 1px 1px rgba(2,2,2, .8);
+}
+
+a {
+  text-decoration:none;
+}
+
+/* links */
+nav {
+  color:#000;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color:#abb69e;
+}
+
+/* nav link selected */
+nav a.selected, nav a:hover {
+  color:#32673f;
+}
+
+h1 {
+ color: #e2f2e2;
+  letter-spacing: .05em;
+  font-family: sans-serif;
+  font-size: 3.85em;
+  height: 2.5em;
+  font-weight:300;
+}
+
+li {
+ color: #abb69e;
+}
+
+nav li {
+  display:inline-block;
+  padding:50px;
+  color: #abb69e;
+  margin: 0px;
+}
+
+/******
+IDs
+******/
+#logo{
+  text-align:center;
+  margin:0;
+  display:block;
+}
+
+
+
+
+
+
+
+
+/******
+Background
+******/
+
+
+/*
+body {
+ background:  linear-gradient(rgba(162,242,222,.7), transparent 0%),
+
+        linear-gradient(to top, rgba(20,20,31, .75), transparent 30%),
+           url('../img/TimmDerrickson_testportfolio_instruction.jpg') no-repeat center;
+  background-size: cover;
+}
+*/
+
+.bamboo {
+ background:  linear-gradient(rgba(162,242,222,.7), transparent 0%),
+
+        linear-gradient(to top, rgba(20,20,31, .75), transparent 30%),
+           url('../img/TimmDerrickson_testportfolio_instruction.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+footer {
+  font-family:sans-serif;
+ font-size:1.25em;
+ text-align:center;
+  clear:both;
+ padding-top:50px;
+ color: #abb69e;
+  letter-spacing:.10em;
+}
+
+.social-icon{
+  width:40px;
+  height:40px;
+  margin:0 5px;
+}
